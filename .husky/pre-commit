@@ -2,3 +2,8 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 npx --no -c lint-staged
+
+# format check (prettier)
+npm run format:check -- --uncommitted
+# lint check (eslint)
+npm run lint:affected -- --uncommitted
