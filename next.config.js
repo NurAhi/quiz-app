@@ -6,6 +6,10 @@ const nextConfig = {
   devIndicators: {
     buildActivityPosition: 'bottom-right',
   },
+  styledComponents: {
+    displayName: true,
+    ssr: true,
+  },
 };
 
 module.exports = nextConfig;
