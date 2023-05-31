@@ -17,10 +17,9 @@ export const WelcomeStyled = styled.section`
   flex-direction: column;
   align-content: center;
   align-items: center;
+  justify-content: center;
 
   .c-welcome-content {
-    position: sticky;
-    top: 50%;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -39,6 +38,6 @@ export const WelcomeStyled = styled.section`
     display: flex;
     flex-direction: row;
     align-content: center;
-    align-items: center;
+    text-align: center;
   }
 `;

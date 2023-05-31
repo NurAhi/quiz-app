@@ -1,3 +1,4 @@
+import { Button } from '@components/button';
 import { WelcomeStyled } from './welcome.styles';
 
 export const WelcomePage = () => {
@@ -11,6 +12,7 @@ export const WelcomePage = () => {
           quae ex. Ullam quasi quod esse magnam a labore amet temporibus numquam sed fugiat?
         </p>
       </div>
+      <Button text="Start"/>
     </WelcomeStyled>
   );
 };
