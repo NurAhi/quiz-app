@@ -12,7 +12,7 @@ const enum CSS {
 export const HeaderStyled = styled.header`
 padding: ${CSS.headerPadding};
 background-color: #d8effa;
-width: 95%;
+width: 96%;
 border-radius: ${CSS.headerBorderRadius};
 position: fixed;
 top: ${CSS.headerPositionTop};
