@@ -4,7 +4,7 @@ const enum CSS {
   welcomePadding = '2rem',
   welcomeTitleFontSize = '1.25rem',
   backgroundColor = '#B398F7',
-  textColor = 'white'
+  textColor = '#FFF'
 }
 
 export const WelcomeStyled = styled.section`
