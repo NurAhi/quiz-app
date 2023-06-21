@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 
 export const TitleStyled = styled.h1`
-  color: #2a6ac6;
-  font-weight: bold;
+  font-size: 1.5em;
+  font-family: 'Kyn';
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  color: #ffff;
 `;
